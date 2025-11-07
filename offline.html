@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anda Sedang Offline</title>
+    <link rel="icon" href="./favicon.png" />
+  </head>
+  <body class="offline-body">
+    <img
+      src="./images/logo.png"
+      alt="App Logo"
+      class="offline-logo"
+      onerror="this.style.display='none'"
+    />
+    <h1>Anda Sedang Offline</h1>
+    <p>Periksa koneksi internet Anda dan coba lagi.</p>
+    <button onclick="location.reload()" class="offline-button">
+      Coba Lagi
+    </button>
+  </body>
+</html>
